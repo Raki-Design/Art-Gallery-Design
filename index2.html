@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es-DR">
+<head>
+    <meta charset="utf-8">
+    <title>Diseño de Sitios Web Raki</title>
+    <style>
+        body {
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: #fff;
+            font-family: 'Lato', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .content {
+            max-width: 500px;
+            margin: auto;
+            padding: 150px 20px 20px; /* Adjust padding to center content */
+        }
+        /* Transparent navigation bar styles */
+        nav {
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+            position: fixed; /* Fixed position at the top */
+            width: 100%; /* Full width */
+            z-index: 1000; /* Ensure it appears above other content */
+            padding: 15px 0; /* Add some vertical padding */
+        }
+        .menu {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        .menu li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        .menu a {
+            color: #fff;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+            padding: 10px 20px;
+            border-radius: 20px; /* Make rounded corners */
+            font-weight: bold;
+            font-size: 18px;
+            display: inline-block; /* Ensure menu items are block elements */
+            background-color: rgba(0, 0, 0, 0); /* Fully transparent background */
+        }
+        .menu a:hover {
+            background-color: rgba(255, 255, 255, 0.5); /* Lighter semi-transparent white background on hover */
+        }
+        .centered {
+            text-align: center;
+        }
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #ffcc00; /* Beautiful color for the welcome message */
+        }
+        p {
+            font-size: 20px;
+            margin-bottom: 40px;
+            color: white;
+        }
+        @media screen and (max-width: 768px) {
+            .content {
+                max-width: 90%; /* Adjust max-width for smaller screens */
+                padding-top: 150px; /* Adjust padding for smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Transparent navigation bar -->
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="tel:8097292380" target="_blank">WHATSAPP</a></li>
+            <li><a href="mailto:rakidesign@hotmail.com" target="_blank">EMAIL</a></li>
+        </ul>
+    </nav>
+    <!-- End of Transparent navigation bar -->
+
+    <!-- Content -->
+    <div class="content">
+        <h1 style="color: #ffcc00;">Bienvenidos a Diseño de Sitios Web Raki</h1>
+        <p style="color: white;">Permita que creemos su sitio web impresionante</p>
+        <div class="centered">
+            <script src="https://www.paypal.com/sdk/js?client-id=BAAohsDoqGYWN-5xPAd7BsVeQAjaBycHkWhgrpF8UujTFjVogWFRS2AXJG3EQs4DzOIdWzG-wCe7xm3ytc&components=hosted-buttons&disable-funding=venmo&currency=USD"></script>
+            <div id="paypal-container-FA4P2ST5N3V6Y"></div>
+            <script>
+              paypal.HostedButtons({
+                hostedButtonId: "FA4P2ST5N3V6Y",
+              }).render("#paypal-container-FA4P2ST5N3V6Y")
+            </script>
+        </div>
+    </div>
+
+    <!-- Tawk.to Script and any other scripts remain unchanged -->
+    
+</body>
+</html>
